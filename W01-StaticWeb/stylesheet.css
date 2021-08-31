@@ -1,0 +1,98 @@
+body{
+    background-image: url('https://wallpapertag.com/wallpaper/full/2/8/e/233228-free-download-vintage-paper-background-2000x1333-for-lockscreen.jpg');
+    font-family: Georgia;
+}
+
+/* index.html css style */
+.container-book{
+    width: 100%;
+    height: 1115px;
+}
+
+.wrapper{
+    background-color: #ffffff;
+    width: 250px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 2px solid #c2803f;
+}
+
+.wrapper:hover{
+    background-color: #81663d;
+    border-radius: 25px;
+    color: #fffaf2;
+}
+
+.wrapper img{
+    margin-top: 20px;
+    width: 90%;
+    height: 75%;
+}
+
+
+/* book.html CSS style */
+.home-judul{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home{
+    height: 20px;
+    width: 180px;
+    margin: 15px 15px;
+    background-color: #e9c082;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #42280e;
+}
+
+.home:hover{
+    background-color: #81663d;
+    border-radius: 25px;
+    color: #fffaf2;
+}
+
+.book-content{
+    width: 75%;
+    height: 615px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #81663d;
+}
+
+.book-content img{
+    height: 550px;
+    width: 325px;
+    margin: 15px 25px;
+    float: left;
+}
+
+.detail-info{
+    background-color: white;
+    height: 585px;
+    width: 700px;
+    margin: 15px 25px;
+    float: left;
+    border-radius: 25px;
+}
+
+.detail-info p{
+    margin: 25px;
+}
+
+.judul{
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.harga{
+    font-size: 30px;
+}
